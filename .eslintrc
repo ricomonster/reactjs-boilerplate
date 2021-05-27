@@ -1,0 +1,28 @@
+{
+  "env": {
+      "browser": true,
+      "es6": true,
+      "node": true
+  },
+  "extends": [
+      "airbnb",
+      "plugin:jest/recommended",
+      "plugin:prettier/recommended"
+  ],
+  "parser": "babel-eslint",
+  "parserOptions": {
+      "allowImportExportEverywhere": true,
+      "sourceType": "module"
+  },
+  "plugins": [
+      "prettier"
+  ],
+  "rules": {
+      "prettier/prettier": "error",
+      "arrow-parens": [0],
+      "react/jsx-fragments": [0],
+      "react/jsx-filename-extension": [0],
+      "eol-last": [2,"always"]
+  }
+}
+
